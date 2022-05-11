@@ -1,0 +1,247 @@
+*{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+                font-family: fantasy;
+            }
+            
+            #formu{
+                background:aqua;
+                position: relative;
+                margin:initial;
+                width: 500px;
+                height: 250px;
+            }
+            
+            #up{
+                position: relative;
+                margin: 20px auto;
+                width: 1000px;
+                height: 20px;
+                background:cadetblue
+            }
+            
+            header{
+                position: relative;
+                margin:20px auto;
+                width: 800px;
+                height: 120px;
+                background: firebrick;
+            }
+            
+            #logo{
+                position: absolute;
+                top: 10px;
+                left: 30px;
+                width: 100px;
+                height: 100px;
+                border-radius: 100%;
+            }
+            
+            .redes{
+                position: absolute;
+                width: 42px;
+                height: 42px;
+                border-radius: 100%;
+            }
+            
+            #ico1{
+                top: 44px;
+                right: 60px;
+                background: url(img/face.png);
+                background-position: center;
+                background-size: contain;
+            }
+            
+            
+            #ico2{
+                top: 42px;
+                right: 10px;
+                background: url(img/insta.png);
+                background-position: center;
+                background-size: contain;
+            }
+            
+            #chat{
+                position: fixed;
+                width: 240px;
+                height: 50px;
+                bottom: 0;
+                right: 20px;
+                background: red;
+                z-index: 1;
+                color: white;
+                text-align: center;
+                line-height: 40px;
+                font-size: 20px;
+                border-radius: 20px 20px 0 0;
+                cursor: pointer;    
+            }
+            
+            nav{
+                position: relative;
+                margin:20px auto;
+                width: 800px;
+                height: 48px;
+            }
+            
+            .boton{
+                float:left;
+                width: 196px;
+                margin: 0px 2px;
+                height: 48px;
+                background: blue;
+                text-align: center;
+                line-height: 48px
+            }
+            
+            a .boton:hover{
+                background: cyan;
+            }
+            
+            a .boton:active{
+                background: red;
+            }
+            
+            #top{
+                position: relative;
+                margin:20px auto;
+                width: 800px;
+                height: 192px;
+            }
+            
+            #top ul{
+                width: 810px;
+                height: 192px;
+            }
+            
+            #top ul li{
+                float: left;
+                width: 260px;
+                height: 192px;
+                margin-right: 10px;
+                background: black;
+            }
+            
+            body{
+                background: url(img/fondo2.jpg);
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-position: center;
+                
+                
+               
+                   
+            } 
+        
+            section{
+                position: relative;
+                margin:20px auto;
+                width: 800px;
+                height: 600px;
+             
+            }
+            
+            aside#izq{
+                position: absolute;
+                left: 0px;
+                top: 0px;
+                width: 150px;
+                height: 600px;
+                
+                
+            }
+            
+            aside#izq ul li{
+                background: yellowgreen;
+                padding: 5px;
+                margin: 2px 10px;
+                font-size: 13px;
+                list-style: square;
+                list-style-position: inside;
+                
+            }
+            
+            aside#izq ul li a{
+                text-decoration: none;
+            }
+            
+            aside#der{
+                position: absolute;
+                right: 0px;
+                top: 0px;
+                width: 150px;
+                height: 600px;
+               
+            }
+            
+            aside#der h1{
+                width: 150px;
+                height: 40px;
+                line-height: 50px;
+                text-align: center;
+                background: blue;
+                color: white;
+                margin-bottom: 10px;
+            }
+            
+            aside#der input{
+                padding: 10px;
+                margin: 5px 0;
+                width: 130px;
+            }
+            
+            aside#der input[type="text"] {
+                background: url(img/taza.png);
+                background-repeat: no-repeat;
+                background-position: right;
+                background-size: contain;
+            }
+            
+            aside#der input[type="submit"]{
+                width: 120px;
+                border: 0;
+                background: cyan;
+                margin-left: 20px;
+            }
+            
+            article{
+                position: absolute;
+                left: 170px;
+                top: 0;
+                width: 500px;
+                height: 600px;
+            }
+            
+            article h3{
+                font-size: 30px;
+                margin: 20px;
+                text-align: center;
+               
+            }
+            
+            
+            article p img{
+                float: left;
+                margin-right: 10px;
+            }
+            
+            article p{
+                margin: 5px 35px 0px 30px;
+                font-size: 14px;
+                text-align: justify;
+                color: white;
+            }
+            
+            
+            footer { 
+                position:relative;
+                margin: 20px auto;
+                width: 800px;
+                height: 20px;
+                background: blue;
+                
+            }
+            
+        
+        

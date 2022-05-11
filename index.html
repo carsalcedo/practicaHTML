@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+    <head>
+        <title>PRACTICA HTML 5</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="proyecto para la practica de HTNL 5">
+        <meta name="keywords" content="html, practica, css, etiquetas">
+        <link rel="icon" href="img/ram.jpg">
+        <link href="estilos.css" type="text/css" rel="stylesheet" media="">
+        
+            
+    </head>
+    <body>
+        <div id="up"><b>Contenido de mi primera pagina</b></div>
+        
+    <center>
+        <div id="formu">
+        <h3>FORMULARIO</h3>
+        <form action="ordenado.html">
+            <label for="texto">Nombre y Apellido</label>
+            <input id=texto type="texto" placeholder="nombre" value="" required>  
+            <br>
+            
+            <label for="correo">Correo</label>
+            <input id="correo" type="email" placeholder="correo" value="" required>
+            <br>
+            
+            <label for="pass">Contraseña</label>
+            <input id="pass" type="password" placeholder="contraseña" value="" required>
+            <br>
+            
+            <label for="edad">Edad</label>
+            <input id="edad" type="number" value="10" min="10" max="60">
+            <br>
+            
+            <label>Sexo</label>
+            <select>
+                <option>hombre</option>
+                <option>mujer</option>
+                <option>indefinido</option>
+                <option>transgenero</option>
+            </select>
+            <br>
+            <br>
+            
+            <label>Generos anime favorito</label>
+            <input type="checkbox" id="shonen"> <label for="shonen">Shonen</label>
+            <input type="checkbox" id="seinen"> <label for="seinen">Seinen</label>
+            <input type="checkbox" id="shojo"> <label for="shojo">Shojo</label>
+            <input type="checkbox" id="mecha"> <label for="mecha">Mecha</label>
+            <br>
+            <br>
+            
+            <label>Mayor preferencia</label>
+            <input type="radio" id="anime" name="radio" checked> <label for="anime">Anime</label>
+            <input type="radio" id="kpop" name="radio" checked> <label for="kpop">Kpop</label>   
+            <br>
+            
+            <input type="submit" value="Enviar" id="enviar">
+            
+            
+        </form>
+        </div>
+    </body>
+</html>
